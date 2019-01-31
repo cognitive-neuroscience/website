@@ -1,0 +1,18 @@
+<div class="m-4">
+  <h4 class="display-4">Publications</h4>
+</div>
+
+<div class="m-4">
+  <p *ngFor="let paper of papers">
+    <span class="title">
+      {{paper.title}}
+    </span>
+    <br>
+    <span class="subtitle">{{paper.authors}}</span>
+    <br>
+    <span class="link">{{paper.publication}}</span>
+    <br>
+    <span class="id">{{paper.id}}</span>
+    <br>
+  </p>
+</div>

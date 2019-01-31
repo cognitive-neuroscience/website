@@ -1,0 +1,22 @@
+.logo{
+    height: 75px;
+}
+
+.header{
+    padding: 10px;
+    background-color: #f4f3ef;
+    border-bottom: solid thin #c3c3c3;
+    width: 100vw;
+
+    a.link{
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        text-transform: none;
+        &:hover, &:visited, &:active{
+            text-decoration: none;
+            background-color: rgb(187, 187, 187);
+        }
+
+    }
+}

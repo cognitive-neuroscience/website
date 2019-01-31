@@ -1,0 +1,30 @@
+.banner{
+    background-color: #006d57;
+    border-bottom: solid thin #006d58;
+    .slogan{
+        color: white;
+        font-size: 35px;
+        padding: 20px;
+        font-weight: 100;
+    }
+    img{
+        height: 200px;
+    }
+    strong{
+        font-weight: 300;
+    }
+}
+
+.display-4{
+    font-size: 30px;
+}
+
+p{
+    max-width: 75%;
+    text-align: justify;
+    font-weight: 300;
+}
+
+span{
+    font-weight: 400;
+}
