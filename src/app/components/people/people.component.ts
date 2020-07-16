@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Title } from '@angular/platform-browser';
 
 export class Person {
   bio: string;
@@ -28,9 +29,11 @@ export class PeopleComponent implements OnInit {
   alumni: Person[] = [];
   collaborators: Person[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private _titleService: Title) { }
 
   ngOnInit() {
+    this._titleService.setTitle("People | Sharp Lab")
+
     this.http.get('/assets/data/people.json').subscribe((data: any) => {
       this.gradStudents = data.gradStudents;
       this.RAs = data.RAs;

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-participate',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParticipateComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _titleService: Title) { }
 
   ngOnInit() {
+    this._titleService.setTitle("Participate | Sharp Lab")
   }
 
 }

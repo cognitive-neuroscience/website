@@ -1,8 +1,76 @@
-.display-4{
-    font-size: 30px;
-    
-    img{
+@import "../../../styles.scss";
+
+.blurb-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    &:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    @include md {
+        text-align: left;
+        &:nth-of-type(2) {
+            flex-direction: row;
+        }
+        flex-direction: row;
+    }
+
+    // @include lg {
+    //     text-align: left;
+    //     &:nth-of-type(2) {
+    //         flex-direction: row;
+    //     }
+    //     flex-direction: row;
+    // }
+}
+
+
+img {
+    max-width: 200px;
+    height: auto;
+
+    @include md {
+        max-width: 250px;
+    }
+
+    @include lg {
         max-width: 400px;
-        height: auto;
+    }
+}
+
+.paragrah-margin {
+    margin: 0 7%;
+}
+
+hr {
+    display: block;
+
+    @include md {
+        display: none;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+
+    @include md {
+        font-size: 2rem;
+    }
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 8%;
+
+    @include md {
+        margin-top: 0;
+        font-size: 1.1rem;
+    }
+
+    @include lg {
+        margin-top: 0;
+        font-size: 1.5rem;
+
     }
 }

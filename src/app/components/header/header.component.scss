@@ -2,21 +2,23 @@
     height: 75px;
 }
 
-.header{
-    padding: 10px;
+.navbar-custom{
+    background-color:#006d58;
+}
+
+a {
+    color: white !important;
+
+    &:hover {
+        color: lightgray !important;
+    }
+}
+
+.active-link {
+    color: orange !important;
+}
+
+.navbar-color {
     background-color:#006d58;
     border-bottom: solid thin #006d58;
-    width: 100vw;
-
-    a.link{
-        color:white;
-        padding: 10px;
-        border-radius: 5px;
-        text-transform: none;
-        &:hover{
-            text-decoration: none;
-            background-color: rgb(187, 187, 187);
-        }
-        
-    }
 }

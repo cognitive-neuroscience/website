@@ -3,25 +3,56 @@
 <!-- <div class="logo">
     <a [routerLink]="['/']"><img src="../../../assets/img/logo.jpg" height="100%" alt=""></a>
   </div> -->
-  <div class="sticky-top header d-flex flex-row align-items-center justify-content-between">
-    <div class="d-flex flex-row" style='margin-left: 325px'>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/']">HOME</a>
-      </div>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/research']">RESEARCH</a>
-      </div>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/people']">PEOPLE</a>
-      </div>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/publications']">PUBLICATIONS</a>
-      </div>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/participate']">PARTICIPATE</a>
-      </div>
-      <div class="m-2">
-        <a class="link" [routerLink]="['/contact']">CONTACT US</a>
-      </div>
+<!-- <div class="sticky-top header d-flex flex-row align-items-center justify-content-between">
+  <div class="d-flex flex-row" style='margin: 0 auto;'>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/']">HOME</a>
+    </div>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/research']">RESEARCH</a>
+    </div>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/people']">PEOPLE</a>
+    </div>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/publications']">PUBLICATIONS</a>
+    </div>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/participate']">PARTICIPATE</a>
+    </div>
+    <div class="m-2">
+      <a class="link" [routerLink]="['/contact']">CONTACT US</a>
     </div>
   </div>
+</div> -->
+
+<nav class="navbar navbar-dark navbar-custom navbar-expand-md sticky-top">
+
+  <button class="navbar-toggler" type="button" (click)="shouldShow = !shouldShow">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" [ngClass]="{'show' : shouldShow}">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/']">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/research']">RESEARCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/people']">PEOPLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/publications']">PUBLICATIONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/participate']">PARTICIPATE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/contact']">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+</nav>

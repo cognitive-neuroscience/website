@@ -1,8 +1,39 @@
+@import "../../../styles.scss";
+
 .display-4{
     font-size: 30px;
 }
 
-p{
-    font-weight: 300;
-    text-align: justify;
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    @include md {
+        flex-direction: row;
+    }
+}
+
+.word-container {
+    margin: auto;
+}
+
+.map {
+    width: 350px;
+    height: 350px;
+    
+    @include md {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.map-container {
+    margin: 5% auto;
+}
+
+.words {
+    font-size: 1rem;
+    text-align: center;
 }
