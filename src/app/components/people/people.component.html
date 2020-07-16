@@ -1,3 +1,55 @@
 <div class="m-4">
-  <h4 class="display-4">People</h4>
+  <!-- <h4 class="display-4">People</h4> -->
+  <div style="font-weight: 100;font-size: 20px; margin-left: 25px; margin-top: 20px;">Principal Investigator</div>
+  <div class="d-flex flex-row align-items-start justify-content-around">
+    <div class="p-4" style="margin-top: 0px;margin-left: 50px;">
+      <img src="../../../assets/img/Headshot_Sharp.png" alt="">
+    </div>
+    <div class style='padding-top: 25px; margin-right: 100px;'>
+      <span style="font-size: 20px; ">Madeleine Sharp, MD</span>
+      <p>
+        Madeleine received her MD from McGill University and completed her Neurology residency at the University of
+        British Columbia. She did post-doctoral training with Daphna Shohamy at Columbia
+        University and fellowship training in Movement Disorders at the Columbia University Medical Center. </p>
+      <p>Email: <a href="mailto:madeleine.sharp@mcgill.ca">madeleine.sharp@mcgill.ca</a></p>
+    </div>
+  </div>
+
+
+  <div style="font-weight: 100;font-size: 20px;margin-top:30px;margin-left: 25px;">Graduate Students</div>
+
+  <div class="d-flex flex-row align-items-start justify-content-around" *ngFor="let gradStudent of gradStudents">
+    <div class="p-4" style="margin-top: 0px;margin-left: 50px;">
+      <img src={{gradStudent.photo}} alt="">
+    </div>
+    <div style="padding-top: 45px;margin-right: 100px;">
+      <span style="font-size: 20px">{{gradStudent.name}}</span>
+      <p>{{gradStudent.bio}} </p>
+    </div>
+  </div>
+
+
+  <div style="font-weight: 100;font-size: 20px;margin-top:30px;margin-left:25px">Research Assistant</div>
+
+  <div class="d-flex flex-row align-items-start justify-content-around" *ngFor="let RA of RAs">
+    <div class="p-4" style="margin-top: 0px;margin-left: 50px;">
+      <img src={{RA.photo}} alt="">
+    </div>
+    <div style="padding-top: 45px;margin-right: 100px;">
+      <span style="font-size: 20px">{{RA.name}}</span>
+      <p>{{RA.bio}} </p>
+    </div>
+  </div>
+
+  <div style="font-weight: 100;font-size: 20px;margin-top:30px;margin-left:25px;">Undergraduate Students</div>
+
+  <div class="d-flex flex-row align-items-start justify-content-around" *ngFor="let underGrad of underGrads">
+    <div class="p-4" style="margin-top: 0px;margin-left: 50px;">
+      <img src={{underGrad.photo}} alt="">
+    </div>
+    <div style="padding-top: 45px;margin-right: 100px;">
+      <span style="font-size: 20px">{{underGrad.name}}</span>
+      <p>{{underGrad.bio}} </p>
+    </div>
+  </div>
 </div>

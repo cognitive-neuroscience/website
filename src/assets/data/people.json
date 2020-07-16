@@ -1,0 +1,49 @@
+{
+    "gradStudents": [
+        {
+            "name": "Matt Pilgram, Master's Student",
+            "photo": "../../../assets/img/Matt.jpg",
+            "bio": "Matt's research interests are centered around the interaction between dopamine-driven reward signaling and executive cognitive processes. Currently, he is trying to understand the mechanisms driving well-known cognitive deficits in Parkinson's disease patients, such as attention and working memory, and how they may be linked to the underlying dopamine pathology."
+            
+        },
+        {
+            "name": "Soraya Lahlou, PhD Student",
+            "photo": "../../../assets/img/Soraya.png",
+            "bio": "Soraya is interested in the process of memory consolidation (i.e., the strengthening of a memory over time) and how this interacts with sleep and dopamine in Parkinson's disease patients. Both sleep and dopamine are important for consolidation, yet little is known about how these two interact and affect the consolidation process in PD patients. In addition to the dopamine deficits, patients often struggle with a number of sleep-related symptoms. Impairments in the consolidation process might be a mechanism that underlies the cognitive and executive impairments present in patients."
+        }
+    ],
+
+    "RAs": [
+        {
+            "name": "Leah Suissa, BA",
+            "photo": "../../../assets/img/Leah.jpg",
+            "bio": "Léah recently graduated from McGill's Honours Psychology program where she developed an interest in cognitive and affective neuroscience. Léah is excited to join the Sharp lab and learn more about how neuromodulators and hormones like cortisol affect learning and memory."
+        },
+        {
+            "name": "Xu Elsie Yan, BA",
+            "photo": "../../../assets/img/elsie.jpg",
+            "bio": "Elsie is a recent graduate of McGill’s Honours Psychology program. She is interested in the role of dopamine in cognition and she is very excited to work with Dr. Sharp on various projects, including the effects of dopamine on sleep and long-term memory. She plans to eventually pursue a degree in clinical neuropsychology."
+        }
+    ],
+
+    "underGrads": [
+        {
+            "name": "Yilin Zhang",
+            "photo": "../../../assets/img/Yilin.jpeg",
+            "bio": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream."
+        }
+    ],
+
+    "alumni": [
+        {
+                   }
+    ],
+
+
+    "collaborators": [
+        {
+                   }
+    ]
+ }
+
+ 

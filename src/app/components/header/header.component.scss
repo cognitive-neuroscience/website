@@ -4,19 +4,19 @@
 
 .header{
     padding: 10px;
-    background-color: #f4f3ef;
-    border-bottom: solid thin #c3c3c3;
+    background-color:#006d58;
+    border-bottom: solid thin #006d58;
     width: 100vw;
 
     a.link{
-        color: black;
+        color:white;
         padding: 10px;
         border-radius: 5px;
         text-transform: none;
-        &:hover, &:visited, &:active{
+        &:hover{
             text-decoration: none;
             background-color: rgb(187, 187, 187);
         }
-
+        
     }
 }

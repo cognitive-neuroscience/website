@@ -1,22 +1,26 @@
 .banner{
-    background-color: #006d57;
-    border-bottom: solid thin #006d58;
+    background-color:white;
+    // border-bottom: solid thin #006d58;
     .slogan{
-        color: white;
-        font-size: 35px;
+        color: black;
+        font-size: 60px;
         padding: 20px;
         font-weight: 100;
+        margin-right: 395px;
     }
     img{
         height: 200px;
     }
     strong{
-        font-weight: 300;
+        font-weight: 500;
     }
 }
 
 .display-4{
-    font-size: 30px;
+    font-size: 25px;
+    margin-left:125px;
+    margin-right: 125px;
+    text-align: center;
 }
 
 p{
