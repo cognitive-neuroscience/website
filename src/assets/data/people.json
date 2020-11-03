@@ -4,7 +4,11 @@
             "name": "Matt Pilgrim, Master's Student",
             "photo": "../../../assets/img/Matt.jpg",
             "bio": "Matt's research interests are centered around the interaction between dopamine-driven reward signaling and executive cognitive processes. Currently, he is trying to understand the mechanisms driving well-known cognitive deficits in Parkinson's disease patients, such as attention and working memory, and how they may be linked to the underlying dopamine pathology."
-            
+        },
+        {
+            "name": "Sophie Sun, Master's Student",
+            "photo": "../../../assets/img/sophie.png",
+            "bio": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships."
         },
         {
             "name": "Soraya Lahlou, PhD Student",
@@ -33,13 +37,10 @@
             "bio": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream."
         }
     ],
-
     "alumni": [
         {
                    }
     ],
-
-
     "collaborators": [
         {
                    }
