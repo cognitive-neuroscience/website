@@ -1,50 +1,97 @@
-{
-    "gradStudents": [
-        {
-            "name": "Matt Pilgrim, Master's Student",
-            "photo": "../../../assets/img/Matt.jpg",
-            "bio": "Matt's research interests are centered around the interaction between dopamine-driven reward signaling and executive cognitive processes. Currently, he is trying to understand the mechanisms driving well-known cognitive deficits in Parkinson's disease patients, such as attention and working memory, and how they may be linked to the underlying dopamine pathology."
-        },
-        {
-            "name": "Sophie Sun, Master's Student",
-            "photo": "../../../assets/img/sophie.png",
-            "bio": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships."
-        },
-        {
-            "name": "Soraya Lahlou, PhD Student",
-            "photo": "../../../assets/img/Soraya.png",
-            "bio": "Soraya is interested in the process of memory consolidation (i.e., the strengthening of a memory over time) and how this interacts with sleep and dopamine in Parkinson's disease patients. Both sleep and dopamine are important for consolidation, yet little is known about how these two interact and affect the consolidation process in PD patients. In addition to the dopamine deficits, patients often struggle with a number of sleep-related symptoms. Impairments in the consolidation process might be a mechanism that underlies the cognitive and executive impairments present in patients."
-        }
-    ],
-
-    "RAs": [
-        {
-            "name": "Leah Suissa, BA",
-            "photo": "../../../assets/img/Leah.jpg",
-            "bio": "Léah recently graduated from McGill's Honours Psychology program where she developed an interest in cognitive and affective neuroscience. Léah is excited to join the Sharp lab and learn more about how neuromodulators and hormones like cortisol affect learning and memory."
-        },
-        {
-            "name": "Xu Elsie Yan, BA",
-            "photo": "../../../assets/img/elsie.jpg",
-            "bio": "Elsie is a recent graduate of McGill’s Honours Psychology program. She is interested in the role of dopamine in cognition and she is very excited to work with Dr. Sharp on various projects, including the effects of dopamine on sleep and long-term memory. She plans to eventually pursue a degree in clinical neuropsychology."
-        }
-    ],
-
-    "underGrads": [
-        {
-            "name": "Yilin Zhang",
-            "photo": "../../../assets/img/Yilin.jpeg",
-            "bio": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream."
-        }
-    ],
-    "alumni": [
-        {
-                   }
-    ],
-    "collaborators": [
-        {
-                   }
-    ]
- }
-
- 
+[
+    {
+        "title": "Principle Investigator",
+        "profiles": [
+            {
+                "name": "Madeleine Sharp, MD",
+                "photoPath": "../../../assets/img/Headshot_Sharp.png",
+                "blurb": "Madeleine received her MD from McGill University and completed her Neurology residency at the University of British Columbia. She did post-doctoral training with Daphna Shohamy at Columbia University and fellowship training in Movement Disorders at the Columbia University Medical Center.",
+                "email": "madeleine.sharp@mcgill.ca",
+                "showImage": true
+            }
+        ]
+    },
+    {
+        "title": "Graduate Students",
+        "profiles": [
+            {
+                "name": "Sophie Sun, Master's Student",
+                "photoPath": "../../../assets/img/sophie.png",
+                "blurb": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships.",
+                "showImage": true
+            },
+            {
+                "name": "Soraya Lahlou, PhD Student",
+                "photoPath": "../../../assets/img/Soraya.png",
+                "blurb": "Soraya is interested in the process of memory consolidation (i.e., the strengthening of a memory over time) and how this interacts with sleep and dopamine in Parkinson's disease patients. Both sleep and dopamine are important for consolidation, yet little is known about how these two interact and affect the consolidation process in PD patients. In addition to the dopamine deficits, patients often struggle with a number of sleep-related symptoms. Impairments in the consolidation process might be a mechanism that underlies the cognitive and executive impairments present in patients.",
+                "showImage": true
+            }
+        ]
+    },
+    {
+        "title": "Research Assistants",
+        "profiles": [
+            {
+                "name": "Leah Suissa, BA",
+                "photoPath": "../../../assets/img/Leah.jpg",
+                "blurb": "Léah recently graduated from McGill's Honours Psychology program where she developed an interest in cognitive and affective neuroscience. Léah is excited to join the Sharp lab and learn more about how neuromodulators and hormones like cortisol affect learning and memory.",
+                "showImage": true
+            },
+            {
+                "name": "Xu Elsie Yan, BA",
+                "photoPath": "../../../assets/img/elsie.jpg",
+                "blurb": "Elsie is a recent graduate of McGill’s Honours Psychology program. She is interested in the role of dopamine in cognition and she is very excited to work with Dr. Sharp on various projects, including the effects of dopamine on sleep and long-term memory. She plans to eventually pursue a degree in clinical neuropsychology.",
+                "showImage": true
+            }
+        ]
+    },
+    {
+        "title": "Undergraduate Students",
+        "profiles": [
+            {
+                "name": "Yilin Zhang",
+                "photoPath": "../../../assets/img/Yilin.jpeg",
+                "blurb": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream.",
+                "showImage": true
+            }
+        ]
+    },
+    {
+        "title": "Web Developers",
+        "profiles": [
+            {
+                "name": "Nicholas Lee",
+                "photoPath": "../../../assets/img/nick.jpg",
+                "blurb": " Nick is a fullstack developer with particular interest in the frontend. He is interested in creating responsive, aesthetic, and intuitive web applications using the latest available technologies.",
+                "showImage": true
+            }
+        ]
+    },
+    {
+        "title": "Alumni",
+        "compress": true,
+        "profiles": [
+            {
+                "name": "Matt Pilgrim, Master's Student",
+                "photoPath": "../../../assets/img/Matt.jpg",
+                "blurb": "Matt is a former MSc student and is now a PhD student in Psychology-Clinical Science at the University of Southern California where he is studying environmental risk factors for neurodegenerative diseases.",
+                "showImage": false,
+                "compress": true
+            },
+            {
+                "name": "Zhen-Yi Andy Ou",
+                "photoPath": "",
+                "blurb": "Andy is a former Neuroscience Honour’s student. He went on to complete an MSc in Clinical Neuroscience at University College London and is now a medical student at the University of Queensland in Australia.",
+                "showImage": false,
+                "compress": true
+            },
+            {
+                "name": "Samantha Maltezos",
+                "photoPath": "",
+                "blurb": "Samantha is a former Psychology Honour’s student. She is currently a PhD student in Clinical Neuropsychology at the Université de Montréal.",
+                "showImage": false,
+                "compress": true
+            }
+        ]
+    }
+]

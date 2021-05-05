@@ -35,3 +35,7 @@ $screen-lg-min: 992px;
         @content;
     }
  }
+
+ body {
+    overflow-x: hidden;
+ }

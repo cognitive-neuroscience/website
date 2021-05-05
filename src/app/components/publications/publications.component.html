@@ -1,38 +1,36 @@
-<!-- <div class="m-4">
-  <h4 class="display-4">Publications</h4>
-</div>
- -->
- <div class="m-4">
-  <div style="font-weight: 100;font-size: 20px; margin-left: 25px; margin-top: 20px;">Preprints</div>
-  <div style="margin-left: 50px; margin-top: 25px;">
-    <p *ngFor="let preprint of preprints">
-      <span class="title">
-        {{preprint.title}}
-      </span>
-      <br>
-      <span class="subtitle">{{preprint.authors}}</span>
-      <br>
-      <span class="id"><a href="{{preprint.link}}" target="_blank">{{preprint.link}}</a></span>
-      <br>
-    </p>
+<div class="publications-container">
+  
+  <div class="section-container">
+
+    <div class="section-title">Preprints</div>
+    <div class="list-container">
+      <p *ngFor="let preprint of preprints">
+        <span class="title">{{preprint.title}}</span>
+        <br>
+        <span class="subtitle">{{preprint.authors}}</span>
+        <br>
+        <span class="id"><a href="{{preprint.link}}" target="_blank">{{preprint.link}}</a></span>
+        <br>
+      </p>
+    </div>
+
   </div>
-</div>
-<div class="m-4">
-  <div style="font-weight: 100;font-size: 20px; margin-left: 25px; margin-top: 20px;">Publications</div>
-  <div style="margin-left: 50px; margin-top: 25px;">
-    <p *ngFor="let paper of papers">
-      <span class="title">
-        {{paper.title}}
-      </span>
-      <span class="subtitle">
-        {{paper.status}}
-      </span>
-      <br>
-      <span class="subtitle">{{paper.authors}}</span>
-      <br>
-      <span class="link">{{paper.publication}}</span>
-      <span class="id"><a href="https://doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a></span>
-      <br>
-    </p>
+
+  <div class="section-container">
+
+    <div class="section-title">Publications</div>
+
+    <div class="list-container">
+      <p *ngFor="let paper of papers">
+        <span class="title">{{paper.title}}</span>
+        <span class="subtitle">{{paper.status}}</span>
+        <br>
+        <span class="subtitle">{{paper.authors}}</span>
+        <br>
+        <span class="link">{{paper.publication}}</span>
+        <span class="id"><a href="https://doi.org/{{paper.doi}}" target="_blank">{{paper.doi}}</a></span>
+        <br>
+      </p>
+    </div>
   </div>
 </div>

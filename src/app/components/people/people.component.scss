@@ -1,76 +1,22 @@
 @import "../../../styles.scss";
 
-.display-4{
-    font-size: 30px;
-}
-p{
-    font-weight: 300;
-    text-align: justify;
-    margin-top: 10px;
+hr {
+    width: 90%;
 }
 
 .title {
     font-weight: 100;
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 10%;
 
     @include md {
         text-align: left;
         margin-left: 5%;
+        margin-bottom: 3%;
     }
 }
 
-h4 {
-    font-weight: normal;
-}
-
-.img-container {
-    text-align: center;
-
-
-    @include md {
-        margin: auto 0;
-        margin-left: 10%;
-    }
-}
-
-.profile {
-    display: flex;
-    flex-direction: column;
-    margin: 5% 0;
-
-    @include md {
-        flex-direction: row;
-    }
-}
-
-.blurb-container {
-    margin: 0 5%;
-}
-
-.name {
-    text-align: center;
-    margin: 5% 0;
-
-    @include md {
-        margin: 0;
-        text-align: left;
-    }
-}
-
-.blurb {
-
-    text-align: center;
-
-    @include md {
-        text-align: left;
-    }
-}
-
-hr {
-    display: block;
-
-    @include md {
-        display: none;
-    }
+.people-container {
+    overflow-x: hidden;
 }

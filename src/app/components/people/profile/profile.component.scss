@@ -1,0 +1,54 @@
+@import "../../../../styles.scss";
+
+
+p{
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5% 0;
+
+    &.compress {
+        margin: 0;
+    }
+
+    @include md {
+        flex-direction: row;
+    }
+}
+
+.img-container {
+    text-align: center;
+
+    @include md {
+        margin: auto 0;
+        margin-left: 10%;
+    }
+}
+
+.blurb-container {
+    margin: 0 5%;
+}
+
+.name {
+    text-align: center;
+    margin: 5% 0;
+
+    @include md {
+        margin: 0 0 1% 0;
+        text-align: left;
+    }
+}
+
+.blurb {
+
+    text-align: center;
+
+    @include md {
+        text-align: left;
+    }
+}

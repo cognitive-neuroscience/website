@@ -1,19 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Title } from '@angular/platform-browser';
-
-export class Person {
-  bio: string;
-  name: string;
-  photoPath: string;
-}
+import { Profile } from './profile/profile.component';
+import { take } from 'rxjs/operators';
+import { Subscription } from 'rxjs';
 
 export class LabStaff {
-  RAs: Person[];
-  alumni: Person[];
-  collaborators: Person[];
-  gradStudents: Person[];
-  underGrads: Person[]
+  RAs: Profile[];
+  alumni: Profile[];
+  collaborators: Profile[];
+  gradStudents: Profile[];
+  underGrads: Profile[]
 }
 
 @Component({
@@ -21,25 +18,28 @@ export class LabStaff {
   templateUrl: './people.component.html',
   styleUrls: ['./people.component.scss']
 })
-export class PeopleComponent implements OnInit {
+export class PeopleComponent implements OnInit, OnDestroy {
 
-  gradStudents: Person[] = [];
-  RAs: Person[] = [];
-  underGrads: Person[] = [];
-  alumni: Person[] = [];
-  collaborators: Person[] = [];
+  private subscriptions: Subscription[] = [];
+
+  sections: {
+    title: string,
+    profiles: Profile[]
+  };
 
   constructor(private http: HttpClient, private _titleService: Title) { }
 
   ngOnInit() {
-    this._titleService.setTitle("People | Sharp Lab")
+    this._titleService.setTitle("People | Sharp Lab");
 
-    this.http.get('/assets/data/people.json').subscribe((data: any) => {
-      this.gradStudents = data.gradStudents;
-      this.RAs = data.RAs;
-      this.underGrads = data.underGrads;
-      this.alumni = data.alumni;
-      this.collaborators = data.collaborators;
-    });
+    this.subscriptions.push(
+      this.http.get('/assets/data/people.json').pipe(take(1)).subscribe((data: { title: string, profiles: Profile[] }) => {
+        this.sections = data;
+      })
+    );
+  }
+
+  ngOnDestroy() {
+    this.subscriptions.forEach(sub => sub.unsubscribe());
   }
 }

@@ -1,80 +1,13 @@
-<div class="m-4">
+<div class="m-4 people-container">
 
-  <h5 class="title">Principal Investigator</h5>
-
-  <div class="profile">
-    <div class="img-container">
-      <img src="../../../assets/img/Headshot_Sharp.png" alt="Profile Picture">
+  <ng-container *ngFor="let section of sections; let i = index">
+    <div>
+      <hr *ngIf="i !== 0">
     </div>
-    <div class="blurb-container">
-      <h4 class="name">Madeleine Sharp, MD</h4>
-      <p class="blurb">
-        Madeleine received her MD from McGill University and completed her Neurology residency at the University of
-        British Columbia. She did post-doctoral training with Daphna Shohamy at Columbia
-        University and fellowship training in Movement Disorders at the Columbia University Medical Center. 
-      </p>
-      <p class="blurb">Email: <a href="mailto:madeleine.sharp@mcgill.ca">madeleine.sharp@mcgill.ca</a></p>
-    </div>
-  </div>
+    <h5 class="title">{{ section.title }}</h5>
+    <app-profile [profiles]="section.profiles"></app-profile>
 
-  <hr>
-
-  <h5 class="title">Graduate Students</h5>
-
-  <div class="profile" *ngFor="let gradStudent of gradStudents">
-    <div class="img-container">
-      <img src={{gradStudent.photo}} alt="Profile Picture">
-    </div>
-    <div class="blurb-container">
-      <h4 class="name">{{gradStudent.name}}</h4>
-      <p class="blurb">{{gradStudent.bio}} </p>
-    </div>
-  </div>
-
-  <hr>
-
-  <h5 class="title">Research Assistant</h5>
-
-  <div class="profile" *ngFor="let RA of RAs">
-    <div class="img-container">
-      <img src={{RA.photo}} alt="Profile Picture">
-    </div>
-    <div class="blurb-container">
-      <h4 class="name">{{RA.name}}</h4>
-      <p class="blurb">{{RA.bio}} </p>
-    </div>
-  </div>
-
-  <hr>
-
-  <h5 class="title">Undergraduate Students</h5>
-
-  <div class="profile" *ngFor="let underGrad of underGrads">
-    <div class="img-container">
-      <img src={{underGrad.photo}} alt="">
-    </div>
-    <div class="blurb-container">
-      <h4 class="name">{{underGrad.name}}</h4>
-      <p class="blurb">{{underGrad.bio}} </p>
-    </div>
-  </div>
-
-  <hr>
-
-  <h5 class="title">Web Developer</h5>
-
-  <div class="profile">
-    <div class="img-container">
-      <img src="../../../assets/img/nick.jpg" alt="Profile Picture">
-    </div>
-    <div class="blurb-container">
-      <h4 class="name">Nicholas Lee</h4>
-      <p class="blurb">
-        Nick is a fullstack developer with particular interest in the frontend. 
-        He is interested in creating responsive and aesthetic web applications using the latest available technologies.
-      </p>
-    </div>
-  </div>
+  </ng-container>
 </div>
 
 
