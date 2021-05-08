@@ -5,7 +5,6 @@ import { Title } from '@angular/platform-browser';
 export class Paper {
   authors: string;
   publication: string;
-  status: string;
   title: string;
 }
 
