@@ -1,7 +1,7 @@
 <ng-container *ngFor="let profile of profiles">
   <div class="profile {{ profile.compress ? 'compress' : '' }}">
     <div *ngIf="profile.showImage && profile.photoPath" class="img-container">
-      <img src={{profile.photoPath}} alt="Profile Picture">
+      <img id="profile-picture" src={{profile.photoPath}} alt="Profile Picture">
     </div>
     <div class="blurb-container">
       <h4 class="name">{{profile.name}}</h4>

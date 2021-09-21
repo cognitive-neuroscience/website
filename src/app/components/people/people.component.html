@@ -1,11 +1,13 @@
 <div class="m-4 people-container">
 
   <ng-container *ngFor="let section of sections; let i = index">
-    <div>
-      <hr *ngIf="i !== 0">
-    </div>
-    <h5 class="title">{{ section.title }}</h5>
-    <app-profile [profiles]="section.profiles"></app-profile>
+    <ng-container *ngIf="section.profiles.length > 0">
+      <div>
+        <hr *ngIf="i !== 0">
+      </div>
+      <h5 class="title">{{ section.title }}</h5>
+      <app-profile [profiles]="section.profiles"></app-profile>
+    </ng-container>
 
   </ng-container>
 </div>

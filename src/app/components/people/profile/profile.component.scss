@@ -7,6 +7,11 @@ p{
     line-height: 1.8;
 }
 
+#profile-picture {
+    width: 180px;
+    border-radius: 8px;
+}
+
 .profile {
     display: flex;
     flex-direction: column;
@@ -14,6 +19,12 @@ p{
 
     &.compress {
         margin: 0;
+        & h4 {
+            // overrides for alumni profiles
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
     }
 
     @include md {

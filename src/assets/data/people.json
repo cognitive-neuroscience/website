@@ -15,7 +15,25 @@
         "title": "Graduate Students",
         "profiles": [
             {
-                "name": "Sophie Sun, Master's Student",
+                "name": "Tommy Kim, Masters Student",
+                "photoPath": "../../../assets/img/Tommykim.jpeg",
+                "blurb": "I am interested in exploring the underlying neural mechanisms behind cognitive impairments in Parkinson’s Disease, and especially how they relate to aberrant cognitive processes or behaviour. Over the next few years, I hope to learn more about research methods available in cognitive neuroscience that will help clinicians better understand and treat cognitive symptoms for patients with neurodegenerative diseases.",
+                "showImage": true
+            },
+            {
+                "name": "Lyla Hawari, Masters Student",
+                "photoPath": "../../../assets/img/LylaHawari.jpg",
+                "blurb": "My research explores the effect of stress on cognition in Parkinson&#39;s patients. Although PD patients often report increased levels of stress, implying a higher sensitivity to stress, it has yet to be determined whether this is reflected physiologically through greater cortisol level when compared to healthy older adults. My project investigates the physiological correlates in response to acute stress in addition to the potential resulting cognitive impairments in Parkinson's patients.",
+                "showImage": true
+            },
+            {
+                "name": "Alexander Bailey, Masters Student",
+                "photoPath": "../../../assets/img/AlexanderBailey.jpg",
+                "blurb": "I am interested in bridging the domains of cognitive neuroscience and neuroimaging. My thesis will examine the relationship between markers of structural integrity in the deep gray matter nuclei of the brain to the cerebral cortex in Parkinson’s Disease (PD). Prior research has noted that several neurotransmitter systems (e.g., the cholinergic and dopaminergic systems) are affected early in PD, but it remains unknown how anomalies in brain connections relate to distinct cognitive symptoms. Having a better understanding of the structural connections between such brain regions and measures of cognitive function has the potential to better encapsulate some of the underlying neurobiological factors behind the cognitive symptoms displayed in PD patients.",
+                "showImage": true
+            },
+            {
+                "name": "Sophie Sun, Masters Student",
                 "photoPath": "../../../assets/img/sophie.png",
                 "blurb": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships.",
                 "showImage": true
@@ -32,29 +50,16 @@
         "title": "Research Assistants",
         "profiles": [
             {
-                "name": "Leah Suissa, BA",
-                "photoPath": "../../../assets/img/Leah.jpg",
-                "blurb": "Léah recently graduated from McGill's Honours Psychology program where she developed an interest in cognitive and affective neuroscience. Léah is excited to join the Sharp lab and learn more about how neuromodulators and hormones like cortisol affect learning and memory.",
-                "showImage": true
-            },
-            {
-                "name": "Xu Elsie Yan, BA",
-                "photoPath": "../../../assets/img/elsie.jpg",
-                "blurb": "Elsie is a recent graduate of McGill’s Honours Psychology program. She is interested in the role of dopamine in cognition and she is very excited to work with Dr. Sharp on various projects, including the effects of dopamine on sleep and long-term memory. She plans to eventually pursue a degree in clinical neuropsychology.",
-                "showImage": true
-            }
-        ]
-    },
-    {
-        "title": "Undergraduate Students",
-        "profiles": [
-            {
                 "name": "Yilin Zhang",
                 "photoPath": "../../../assets/img/Yilin.jpeg",
                 "blurb": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream.",
                 "showImage": true
             }
         ]
+    },
+    {
+        "title": "Undergraduate Students",
+        "profiles": []
     },
     {
         "title": "Web Developers",
@@ -69,26 +74,39 @@
     },
     {
         "title": "Alumni",
-        "compress": true,
         "profiles": [
             {
-                "name": "Matt Pilgrim, Master's Student",
+                "name": "Xu Elsie Yan (research assistant)",
+                "photoPath": "../../../assets/img/elsie.jpg",
+                "blurb": "Psychology PhD student in Clinical Child Psychology at Penn State",
+                "showImage": false,
+                "compress": true
+            },
+            {
+                "name": "Leah Suissa-Rocheleau (research assistant)",
+                "photoPath": "../../../assets/img/Leah.jpg",
+                "blurb": "Law Student at McGill University",
+                "showImage": false,
+                "compress": true
+            },
+            {
+                "name": "Matt Pilgrim (MSc student)",
                 "photoPath": "../../../assets/img/Matt.jpg",
-                "blurb": "Matt is a former MSc student and is now a PhD student in Psychology-Clinical Science at the University of Southern California where he is studying environmental risk factors for neurodegenerative diseases.",
+                "blurb": "Psychology PhD student in Clinical Science at the University of Southern California",
                 "showImage": false,
                 "compress": true
             },
             {
-                "name": "Zhen-Yi Andy Ou",
+                "name": "Zhen-Yi Andy Ou (neuroscience honours student)",
                 "photoPath": "",
-                "blurb": "Andy is a former Neuroscience Honour’s student. He went on to complete an MSc in Clinical Neuroscience at University College London and is now a medical student at the University of Queensland in Australia.",
+                "blurb": "Medical student at the University of Queensland in Australia.",
                 "showImage": false,
                 "compress": true
             },
             {
-                "name": "Samantha Maltezos",
+                "name": "Samantha Maltezos (psychology honours student)",
                 "photoPath": "",
-                "blurb": "Samantha is a former Psychology Honour’s student. She is currently a PhD student in Clinical Neuropsychology at the Université de Montréal.",
+                "blurb": "PhD student in Clinical Neuropsychology at the Université de Montréal.",
                 "showImage": false,
                 "compress": true
             }

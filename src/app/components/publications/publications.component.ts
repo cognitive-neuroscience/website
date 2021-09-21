@@ -6,6 +6,7 @@ export class Paper {
   authors: string;
   publication: string;
   title: string;
+  doi: string;
 }
 
 export class Preprint {

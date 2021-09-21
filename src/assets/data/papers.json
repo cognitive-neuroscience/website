@@ -1,11 +1,6 @@
 {
     "preprints": [
         {
-            "title": "Selective attention is insensitive to reward and to dopamine in Parkinson’s disease",
-            "authors": "Pilgrim M, Ou ZYA, Sharp M",
-            "link": "https://doi.org/10.1101/2021.04.22.440852"
-        },
-        {
             "title": "Preserved motor memory in Parkinson's disease",
             "authors": "Lahlou S, Gabitov E, Owen LLW, Shohamy D, Sharp M",
             "link": "https://doi.org/10.1101/2021.04.30.441882"
@@ -16,74 +11,74 @@
             "link": "https://www.biorxiv.org/content/10.1101/619478v1"
         }
     ],
-
     "papers": [
+        {
+            "title": "Selective attention is insensitive to reward and to dopamine in Parkinson’s disease",
+            "authors": "Pilgrim M, Ou ZYA, Sharp M",
+            "publication": "Scientific Reports 2021",
+            "doi": "https://www.nature.com/articles/s41598-021-97526-7"
+        },
         {
             "title": "Dopamine is associated with prioritization of reward-associated memories in Parkinson’s disease",
             "authors": "Sharp ME, Duncan K, Foerde K, Shohamy D.",
-            "publication": "Brain 2020 ",
-            "doi": "doi.org/10.1093/brain/awaa182"
+            "publication": "Brain. 2020",
+            "doi": "https://doi.org/10.1093/brain/awaa182"
         },
         {
             "title": "Dopamine selectively remediates 'model-based' reward learning: a computational approach",
             "authors": "Sharp ME, Foerde K, Daw ND, Shohamy D.",
             "publication": "Brain. 2016 ",
-            "doi": "10.1093/brain/awv347",
+            "doi": "https://doi.org/10.1093/brain/awv347",
             "id": "PMID: 26685155"
         },
         {
             "title": "The relationship between obsessive-compulsive symptoms and PARKIN genotype: The CORE-PD study",
             "authors": "Sharp ME, Caccappolo E, Mejia-Santana H, Tang MX, Rosado L, Orbe Reilly M, Ruiz D, Louis ED, Comella C, Nance M, Bressman S, Scott WK, Tanner C, Waters C, Fahn S, Cote L, Ford B, Rezak M, Novak K, Friedman JH, Pfeiffer R, Payami H, Molho E, Factor SA, Nutt J, Serrano C, Arroyo M, Pauciulo MW, Nichols WC, Clark LN, Alcalay RN, Marder KS.",
             "publication": "Mov Disord. 2015 ",
-            "doi": "10.1002/mds.26065",
+            "doi": "https://doi.org/10.1002/mds.26065",
             "id": "PMID: 25393808"
         },
         {
             "title": "Decisions under risk in Parkinson's disease: preserved evaluation of probability and magnitude",
             "authors": "Sharp ME, Viswanathan J, McKeown MJ, Appel-Cresswell S, Stoessl AJ, Barton JJ.",
             "publication": "Neuropsychologia. 2013 ",
-            "doi": "10.1016/j.neuropsychologia.2013.08.008",
+            "doi": "https://doi.org/10.1016/j.neuropsychologia.2013.08.008",
             "id": "PMID: 23954375"
         },
         {
             "title": "Sensitivity and bias in decision-making under risk: evaluating the perception of reward, its probability and value",
             "authors": "Sharp ME, Viswanathan J, Lanyon LJ, Barton JJ.",
             "publication": "PLoS One. 2012 ",
-            "doi": "10.1371/journal.pone.0033460",
+            "doi": "https://doi.org/10.1371/journal.pone.0033460",
             "id": "PMID: 22493669"
         },
         {
             "title": "Parkinson's disease with Lewy bodies associated with a heterozygous PARKIN dosage mutation",
             "authors": "Sharp ME, Marder KS, Côté L, Clark LN, Nichols WC, Vonsattel JP, Alcalay RN.",
             "publication": "Mov Disord. 2014 ",
-            "doi": "10.1002/mds.25792",
+            "doi": "https://doi.org/10.1002/mds.25792",
             "id": "PMID: 25393808"
         },
-        
         {
             "title": "Applause sign in clinically overlapping diseases: a case of TDP-43 proteinopathy",
             "authors": "Arkadir D, Greene PE, Waters CH, Moskowitz CB, Sharp ME.",
             "publication": "Parkinsonism Relat Disord. 2013 ",
-            "doi": "0.1016/j.parkreldis.2013.04.016",
+            "doi": "https://doi.org/10.1016/j.parkreldis.2013.04.016",
             "id": "PMID: 23680421"
         },
         {
             "title": "Immunomodulation in adult epilepsy: the role of IVIG",
             "authors": "Sharp M, Javidan M.",
             "publication": "Can J Neurol Sci. 2012 ",
-            "doi": "10.1017/S0317167100015304",
+            "doi": "https://doi.org/10.1017/S0317167100015304",
             "id": "PMID: 22931698"
         },
-        
-        
         {
             "title": "Delayed restricted diffusion in carbon monoxide leukoencephalopathy",
             "authors": "Sharp ME, Chew JB, Heran MK, Pettersen JA.",
             "publication": "Can J Neurol Sci. 2012 ",
-            "doi": "10.1017/S0317167100013585",
+            "doi": "https://doi.org/10.1017/S0317167100013585",
             "id": "PMID: 22547524"
         }
-        
-        
     ]
 }
