@@ -15,25 +15,25 @@
         "title": "Graduate Students",
         "profiles": [
             {
-                "name": "Tommy Kim, Masters Student",
+                "name": "Tommy Kim, MSc Student",
                 "photoPath": "../../../assets/img/Tommykim.jpeg",
                 "blurb": "I am interested in exploring the underlying neural mechanisms behind cognitive impairments in Parkinson’s Disease, and especially how they relate to aberrant cognitive processes or behaviour. Over the next few years, I hope to learn more about research methods available in cognitive neuroscience that will help clinicians better understand and treat cognitive symptoms for patients with neurodegenerative diseases.",
                 "showImage": true
             },
             {
-                "name": "Lyla Hawari, Masters Student",
+                "name": "Lyla Hawari, MSc Student",
                 "photoPath": "../../../assets/img/LylaHawari.jpg",
                 "blurb": "My research explores the effect of stress on cognition in Parkinson&#39;s patients. Although PD patients often report increased levels of stress, implying a higher sensitivity to stress, it has yet to be determined whether this is reflected physiologically through greater cortisol level when compared to healthy older adults. My project investigates the physiological correlates in response to acute stress in addition to the potential resulting cognitive impairments in Parkinson's patients.",
                 "showImage": true
             },
             {
-                "name": "Alexander Bailey, Masters Student",
+                "name": "Alexander Bailey, MSc Student",
                 "photoPath": "../../../assets/img/AlexanderBailey.jpg",
                 "blurb": "I am interested in bridging the domains of cognitive neuroscience and neuroimaging. My thesis will examine the relationship between markers of structural integrity in the deep gray matter nuclei of the brain to the cerebral cortex in Parkinson’s Disease (PD). Prior research has noted that several neurotransmitter systems (e.g., the cholinergic and dopaminergic systems) are affected early in PD, but it remains unknown how anomalies in brain connections relate to distinct cognitive symptoms. Having a better understanding of the structural connections between such brain regions and measures of cognitive function has the potential to better encapsulate some of the underlying neurobiological factors behind the cognitive symptoms displayed in PD patients.",
                 "showImage": true
             },
             {
-                "name": "Sophie Sun, Masters Student",
+                "name": "Sophie Sun, MSc Student",
                 "photoPath": "../../../assets/img/sophie.png",
                 "blurb": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships.",
                 "showImage": true
