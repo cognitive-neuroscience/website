@@ -1,17 +1,18 @@
 {
     "preprints": [
         {
-            "title": "Preserved motor memory in Parkinson's disease",
-            "authors": "Lahlou S, Gabitov E, Owen LLW, Shohamy D, Sharp M",
-            "link": "https://doi.org/10.1101/2021.04.30.441882"
-        },
-        {
             "title": "Dopamine modulates learning-related changes in dynamic striatal-cortical connectivity in Parkinson’s disease ",
             "authors": "Gerraty RT, Sharp ME, Buch A, Bassett DS, Shohamy D",
             "link": "https://www.biorxiv.org/content/10.1101/619478v1"
         }
     ],
     "papers": [
+        {
+            "title": "Preserved motor memory in Parkinson's disease",
+            "authors": "Lahlou S, Gabitov E, Owen LLW, Shohamy D, Sharp M",
+            "publication": "Neuropsychologia. 2022",
+            "doi": "https://doi.org/10.1016/j.neuropsychologia.2022.108161"
+        },
         {
             "title": "The impact of pandemic-related worry on cognitive functioning and risk-taking",
             "authors": "Kevin da Silva Castanheira, Madeleine Sharp, A. Ross Otto",
