@@ -21,7 +21,7 @@ export class Preprint {
   styleUrls: ['./publications.component.scss']
 })
 export class PublicationsComponent implements OnInit {
-
+  
   papers: Paper[] = [];
   preprints: Preprint[] = [];
 

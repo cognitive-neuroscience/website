@@ -1,26 +1,25 @@
 <div class="publications-container">
   
-  <div class="section-container">
+    <div>
 
-    <div class="section-title">Preprints</div>
-    <div class="list-container">
-      <p *ngFor="let preprint of preprints">
-        <span class="title">{{preprint.title}}</span>
-        <br>
-        <span class="subtitle">{{preprint.authors}}</span>
-        <br>
-        <span class="id"><a href="{{preprint.link}}" target="_blank">{{preprint.link}}</a></span>
-        <br>
-      </p>
-    </div>
+      <h2 class="section-title">Preprints</h2>
+      <div>
+        <p *ngFor="let preprint of preprints">
+          <span class="title">{{preprint.title}}</span>
+          <br>
+          <span class="subtitle">{{preprint.authors}}</span>
+          <br>
+          <span class="id"><a href="{{preprint.link}}" target="_blank">{{preprint.link}}</a></span>
+          <br>
+        </p>
+      </div>
 
   </div>
 
-  <div class="section-container">
+  <div>
+    <h2 class="section-title">Publications</h2>
 
-    <div class="section-title">Publications</div>
-
-    <div class="list-container">
+    <div>
       <p *ngFor="let paper of papers">
         <span class="title">{{paper.title}}</span>
         <br>

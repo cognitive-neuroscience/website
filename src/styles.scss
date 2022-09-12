@@ -1,3 +1,4 @@
+@import "~@angular/material/prebuilt-themes/purple-green.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
 html,body{
     font-family: 'Roboto', sans-serif;
@@ -7,7 +8,7 @@ html,body{
 // breakpoints and mixins taken from https://medium.com/codeartisan/breakpoints-and-media-queries-in-scss-46e8f551e2f2
 
 // Small tablets and large smartphones (landscape view)
-$screen-sm-min: 576px;
+$screen-sm-min: 500px;
 
 // Small tablets (portrait view)
 $screen-md-min: 768px;

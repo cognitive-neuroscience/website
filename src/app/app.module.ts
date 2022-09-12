@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './components/index/index.component';
@@ -13,6 +12,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './components/people/profile/profile.component';
 import { PublicLecturesComponent } from './components/public-lectures/public-lectures.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+import { MaterialModule } from './modules/material/material.module';
 
 @NgModule({
   declarations: [
@@ -28,9 +29,11 @@ import { PublicLecturesComponent } from './components/public-lectures/public-lec
     PublicLecturesComponent
   ],
   imports: [
+    MaterialModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

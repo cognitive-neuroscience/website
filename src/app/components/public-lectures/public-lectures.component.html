@@ -1,17 +1,14 @@
-<div class="m-4">
-    <h1>hello hello hello</h1>
-    <!-- <ng-container *ngFor="let section of sections; let i = index"> -->
-      <!-- <ng-container *ngIf="section.profiles.length > 0"> -->
-        <!-- <div>
-          <hr *ngIf="i !== 0">
-        </div>
-        <h5 class="title">{{ section.title }}</h5>
-        <app-profile [profiles]="section.profiles"></app-profile> -->
-      <!-- </ng-container> -->
-  
-    <!-- </ng-container> -->
+<div class="public-lectures-container">
+    <div style="width: 100%; height: 100%">
+        <h2 class="title">Public Lectures</h2>
+        <ng-container *ngFor="let video of videos; let i = index">
+            <mat-card class="card-container">
+                <mat-card-title style="margin-bottom: 1rem;">{{ video?.title }}</mat-card-title>
+                <mat-card-subtitle>{{ video?.description }}</mat-card-subtitle>
+                <mat-card-content class="card-content">
+                    <youtube-player height="100%" width="100%" [videoId]="video.videoId" (ready)="onReady($event)"></youtube-player>
+                </mat-card-content>
+            </mat-card>
+          </ng-container>
+    </div>
 </div>
-  
-  
-  
-  
