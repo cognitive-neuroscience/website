@@ -4,7 +4,7 @@
         "profiles": [
             {
                 "name": "Madeleine Sharp, MD",
-                "photoPath": "../../../assets/img/Headshot_Sharp.png",
+                "photoPath": "assets/img/Headshot_Sharp.png",
                 "blurb": "Madeleine received her MD from McGill University and completed her Neurology residency at the University of British Columbia. She did post-doctoral training with Daphna Shohamy at Columbia University and fellowship training in Movement Disorders at the Columbia University Medical Center.",
                 "email": "madeleine.sharp@mcgill.ca",
                 "showImage": true
@@ -16,31 +16,31 @@
         "profiles": [
             {
                 "name": "Tommy Kim, MSc Student",
-                "photoPath": "../../../assets/img/Tommykim.jpeg",
+                "photoPath": "assets/img/Tommykim.jpeg",
                 "blurb": "Tommy is interested in exploring the underlying neural mechanisms behind cognitive impairments in Parkinson’s Disease, and especially how they relate to aberrant cognitive processes or behaviour. Over the next few years, Tommy hopes to learn more about research methods available in cognitive neuroscience that will help clinicians better understand and treat cognitive symptoms for patients with neurodegenerative diseases.",
                 "showImage": true
             },
             {
                 "name": "Lyla Hawari, MSc Student",
-                "photoPath": "../../../assets/img/LylaHawari.jpg",
-                "blurb": "Lyla's research explores the effect of stress on cognition in Parkinson&#39;s patients. Although PD patients often report increased levels of stress, implying a higher sensitivity to stress, it has yet to be determined whether this is reflected physiologically through greater cortisol level when compared to healthy older adults. Lyla's project investigates the physiological correlates in response to acute stress in addition to the potential resulting cognitive impairments in Parkinson's patients.",
+                "photoPath": "assets/img/LylaHawari.jpg",
+                "blurb": "Lyla's research explores the effect of stress on cognition in Parkinson's patients. Although PD patients often report increased levels of stress, implying a higher sensitivity to stress, it has yet to be determined whether this is reflected physiologically through greater cortisol level when compared to healthy older adults. Lyla's project investigates the physiological correlates in response to acute stress in addition to the potential resulting cognitive impairments in Parkinson's patients.",
                 "showImage": true
             },
             {
                 "name": "Alexander Bailey, MSc Student",
-                "photoPath": "../../../assets/img/AlexanderBailey.jpg",
+                "photoPath": "assets/img/AlexanderBailey.jpg",
                 "blurb": "Alex is interested in bridging the domains of cognitive neuroscience and neuroimaging. Alex's thesis will examine the relationship between markers of structural integrity in the deep gray matter nuclei of the brain to the cerebral cortex in Parkinson’s Disease (PD). Prior research has noted that several neurotransmitter systems (e.g., the cholinergic and dopaminergic systems) are affected early in PD, but it remains unknown how anomalies in brain connections relate to distinct cognitive symptoms. Having a better understanding of the structural connections between such brain regions and measures of cognitive function has the potential to better encapsulate some of the underlying neurobiological factors behind the cognitive symptoms displayed in PD patients.",
                 "showImage": true
             },
             {
                 "name": "Sophie Sun, MSc Student",
-                "photoPath": "../../../assets/img/sophie.png",
+                "photoPath": "assets/img/sophie.png",
                 "blurb": "Sophie is interested in the brain-behaviour relationships that affect cognitive impairment in prodromal Parkinson's Disease (PD). Dopamine and noradrenaline are important modulators of cognition and also among the first neuronal systems to degenerate in PD. For her thesis, she is studying the behavioural outputs of reward learning and attention - cognitive processes that have been reliably linked to the dopaminergic and noradrenergic systems, respectively - in prodromal PD patients. Understanding of the mechanisms underlying cognitive impairment during this early period is crucial because neurodegeneration remains relatively contained, therefore we can establish clearer brain-behaviour relationships.",
                 "showImage": true
             },
             {
                 "name": "Soraya Lahlou, PhD Student",
-                "photoPath": "../../../assets/img/Soraya.png",
+                "photoPath": "assets/img/Soraya.png",
                 "blurb": "Soraya is interested in the process of memory consolidation (i.e., the strengthening of a memory over time) and how this interacts with sleep and dopamine in Parkinson's disease patients. Both sleep and dopamine are important for consolidation, yet little is known about how these two interact and affect the consolidation process in PD patients. In addition to the dopamine deficits, patients often struggle with a number of sleep-related symptoms. Impairments in the consolidation process might be a mechanism that underlies the cognitive and executive impairments present in patients.",
                 "showImage": true
             }
@@ -50,9 +50,9 @@
         "title": "Research Assistants",
         "profiles": [
             {
-                "name": "Yilin Zhang",
-                "photoPath": "../../../assets/img/Yilin.jpeg",
-                "blurb": "Yilin's research interest is in working memory selectivity in Parkinson’s patients, seeing whether dopamine deficiency can affect what information enters and what information is sustained in the working memory stream.",
+                "name": "Nasri Balit",
+                "photoPath": "assets/img/Nasri.jpg",
+                "blurb": "Nasri’s research interests involve studying the variability in cognitive symptoms of Parkinson’s patients. He is interested in identifying whether clinically-actionable clusters of traits can be found within this variability, and what that can reveal about potential risk factors of Parkinson’s progression.",
                 "showImage": true
             }
         ]
@@ -66,7 +66,7 @@
         "profiles": [
             {
                 "name": "Nicholas Lee",
-                "photoPath": "../../../assets/img/nick.jpg",
+                "photoPath": "assets/img/nick.jpg",
                 "blurb": " Nick is a fullstack developer with particular interest in the frontend. He is interested in creating responsive, aesthetic, and intuitive web applications using the latest available technologies.",
                 "showImage": true
             }
@@ -76,22 +76,29 @@
         "title": "Alumni",
         "profiles": [
             {
+                "name": "Yilin Zhang",
+                "photoPath": "assets/img/Yilin.jpeg",
+                "blurb": "Medical student at McGill University",
+                "showImage": false,
+                "compress": true
+            },
+            {
                 "name": "Xu Elsie Yan (research assistant)",
-                "photoPath": "../../../assets/img/elsie.jpg",
+                "photoPath": "assets/img/elsie.jpg",
                 "blurb": "Psychology PhD student in Clinical Child Psychology at Penn State",
                 "showImage": false,
                 "compress": true
             },
             {
                 "name": "Leah Suissa-Rocheleau (research assistant)",
-                "photoPath": "../../../assets/img/Leah.jpg",
+                "photoPath": "assets/img/Leah.jpg",
                 "blurb": "Law Student at McGill University",
                 "showImage": false,
                 "compress": true
             },
             {
                 "name": "Matt Pilgrim (MSc student)",
-                "photoPath": "../../../assets/img/Matt.jpg",
+                "photoPath": "assets/img/Matt.jpg",
                 "blurb": "Psychology PhD student in Clinical Science at the University of Southern California",
                 "showImage": false,
                 "compress": true

@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './components/people/profile/profile.component';
+import { PublicLecturesComponent } from './components/public-lectures/public-lectures.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProfileComponent } from './components/people/profile/profile.component'
     ParticipateComponent,
     ContactComponent,
     HeaderComponent,
-    ProfileComponent
+    ProfileComponent,
+    PublicLecturesComponent
   ],
   imports: [
     BrowserModule,

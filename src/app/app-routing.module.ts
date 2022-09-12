@@ -6,6 +6,7 @@ import { PeopleComponent } from './components/people/people.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { ParticipateComponent } from './components/participate/participate.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { PublicLecturesComponent } from './components/public-lectures/public-lectures.component';
 
 const routes: Routes = [
   { path: '', component: IndexComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'people', component: PeopleComponent },
   { path: 'publications', component: PublicationsComponent },
   { path: 'participate', component: ParticipateComponent },
+  { path: 'public-lectures', component: PublicLecturesComponent },
   { path: 'contact', component: ContactComponent }
 ];
 
