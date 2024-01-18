@@ -156,5 +156,8 @@
       }
     }
   },
-  "defaultProject": "sharplab"
+  "defaultProject": "sharplab",
+  "cli": {
+    "analytics": false
+  }
 }
