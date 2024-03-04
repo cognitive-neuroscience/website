@@ -14,6 +14,7 @@ import { ProfileComponent } from './components/people/profile/profile.component'
 import { PublicLecturesComponent } from './components/public-lectures/public-lectures.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { MaterialModule } from './modules/material/material.module';
+import { WeveMovedComponent } from './components/weve-moved/weve-moved.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MaterialModule } from './modules/material/material.module';
     ContactComponent,
     HeaderComponent,
     ProfileComponent,
-    PublicLecturesComponent
+    PublicLecturesComponent,
+    WeveMovedComponent
   ],
   imports: [
     MaterialModule,
